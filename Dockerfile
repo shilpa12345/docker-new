@@ -1,2 +1,2 @@
-FROM nginx
-COPY index.html /usr/share/nginx/html
+FROM ubuntu:xenial
+RUN apt-get update
